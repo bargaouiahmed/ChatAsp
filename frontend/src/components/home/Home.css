@@ -1,0 +1,199 @@
+.home-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.home-header {
+    background: #1e293b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #334155;
+}
+
+.header-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo-section h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.welcome-text {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.username-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+.logout-btn {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+.logout-btn:active {
+    transform: translateY(0);
+}
+
+.home-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.home-layout {
+    flex: 1;
+    display: flex;
+    max-height: calc(100vh - 88px);
+    overflow: hidden;
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.hero-section {
+    text-align: center;
+    padding: 32px 24px 20px;
+    background: #1e293b;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #334155;
+}
+
+.hero-section h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin: 0 0 12px 0;
+}
+
+.hero-section p {
+    font-size: 15px;
+    color: #94a3b8;
+    margin: 0;
+}
+
+@media (max-width: 968px) {
+    .header-content {
+        padding: 12px 16px;
+    }
+
+    .logo-section h1 {
+        font-size: 22px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .user-greeting {
+        display: none;
+    }
+
+    .logout-btn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .home-layout {
+        flex-direction: column;
+        max-height: none;
+    }
+
+    .hero-section {
+        padding: 24px 16px 16px;
+    }
+
+    .hero-section h2 {
+        font-size: 22px;
+    }
+
+    .hero-section p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-section h1 {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 36px;
+        height: 36px;
+    }
+
+    .logout-btn span {
+        display: none;
+    }
+
+    .hero-section h2 {
+        font-size: 20px;
+    }
+}
