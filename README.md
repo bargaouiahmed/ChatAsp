@@ -13,6 +13,23 @@ A modern, real-time chat application built with ASP.NET Core, SignalR, React, an
 - 🔄 **Auto-Reconnection** with exponential backoff
 - 🎯 **Optimistic UI Updates** for better UX
 
+## 📸 Screenshots
+
+### Chat Interface
+![Chat Interface](https://github.com/user-attachments/assets/9d0aa5b6-79f6-421e-94c2-f96e60af1b84)
+
+### User List & Online Status
+![User List](https://github.com/user-attachments/assets/8e0c214e-33f1-401d-913a-ef1a0edacd66)
+
+### Dark Mode Theme
+![Dark Mode](https://github.com/user-attachments/assets/caf2a181-92d8-474c-8566-203ddb9dba49)
+
+### Real-Time Messaging
+![Real-Time Messages](https://github.com/user-attachments/assets/3e3a28e3-5e37-4cd5-bd9f-63224963ad90)
+
+### Responsive Design
+<img src="https://github.com/user-attachments/assets/6fb8ea9c-de79-462a-8568-77f511133d87" alt="Mobile View" width="300"/>
+
 ## 🛠️ Tech Stack
 
 ### Backend
